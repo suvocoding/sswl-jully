@@ -265,11 +265,6 @@ a {
 
 /*------------------------------------------------------------Navbar End here*----------------------------------------/
 /*------------------------------------------------------------Navbar End here*----------------------------------------/
-
-
-
-
-
 /*-----------------------------------------------Hero starts here*-----------------------------------------------*/
 /*-----------------------------------------------Hero starts here*-----------------------------------------------*/
 
@@ -367,7 +362,7 @@ width:15rem;
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .hero{
     flex-direction: column;  
   }
@@ -822,15 +817,13 @@ height:50vh;
   .contact2{
   flex-direction: column;
   }
-  .contact2-child1{
-  
-
-  }
+ 
   .contact2-child2{
     display: none;
   }
 
 }
+
 
 @media all and (max-width: 1024px) and (max-height: 768px) and (orientation: landscape){
 
@@ -838,10 +831,7 @@ height:50vh;
     height:30vh;
     justify-content: center;
     }
-    .contact2-child1{
     
-  
-    }
     .contact2-child2{
       display: none;
     }
