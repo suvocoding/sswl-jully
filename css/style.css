@@ -18,8 +18,8 @@ html {
 --golden:#FFBD59;
 }
 @font-face {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  src: url(/res/GilamDemo-Black.otf);
+  font-family: 'gliam';
+  src: url(/res/gilam-regular.ttf);
 }
 @font-face {
   font-family:"Questrial-Regular";
@@ -32,7 +32,7 @@ html {
   color: white;
   font-size:4.2rem;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'gliam';
   
 }
 .lead2{
@@ -52,14 +52,14 @@ html {
    font-family: 'Open Sans', sans-serif ;
 }
 .logo-text{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'gliam';
   font-size:1.8rem;
   font-weight:bold;
 }
 .text1{
   color: white;
 font-size:1.4rem;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family:'gliam';
 font-weight: bold;
 text-transform: uppercase;
 text-align: center;
@@ -97,7 +97,7 @@ text-align: center;
  .text4{
   font-size:4rem !important;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'gliam';
 
  }
 
@@ -127,13 +127,13 @@ text-align: center;
  .text7{
   font-weight: bold;
   font-size:1.5em;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'gliam';
   text-transform: uppercase;
   margin:1em 0em;
  }
  .text8{
   font-size:1.8em;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'gliam';
  }
  .text9{
   font-family:"Questrial-Regular";
@@ -195,8 +195,8 @@ a {
 .nav-link {
   color:var(--black);
   font-size: 1.8rem;
-  font-weight: 800;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:400;
+  font-family:'gliam';
 }
 
 .nav-link:hover {
