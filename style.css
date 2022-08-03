@@ -1,0 +1,227 @@
+
+#iz8OckhYPRXOfXCM,#VLRsZWaAYK38rHRI,#vyEkW3VWHNQT0NAY{
+    font-family: 'Blinker-Bold', sans-serif !important;
+    font-weight:bold !important;
+}
+
+@font-face {
+    font-family: 'Blinker-Thin !important';
+    src: url(/fonts/Blinker-Thin.ttf);
+}
+@font-face {
+    font-family: 'Blinker-Light';
+    src: url(/fonts/Blinker-Light.ttf);
+}
+
+@font-face {
+    font-family:'Blinker-Thin' ;
+    src: url(/fonts/Blinker-Bold.ttf);
+}
+
+.about{
+    width:100vw;
+    height:120vh;
+    background:url(/images/2.png) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+.package{
+    width:100vw;
+    height:100vh;
+    background:url(/images/3.png) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+
+.foundation{
+
+    width:100vw;
+    height:120vh;
+    background:url(/images/4.png) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+.ott{
+
+    padding-bottom:4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width:100vw;
+    height:90vh;
+    background:url(/images/ott.png) no-repeat no-repeat center;
+    background-size: cover;
+}
+
+
+
+.anual{
+
+    padding-top:10rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width:100vw;
+    height:100vh;
+    background:url(/images/anual.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+.contact-us{
+    padding-bottom:4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width:100vw;
+    height:70vh;
+    background:url(/images/contact.png) no-repeat no-repeat center;
+    background-size: cover;
+}
+.pdf{
+
+    font-family: 'Blinker', sans-serif;
+    color:#B1B1B1;
+    margin-top:10rem;
+}
+.anual div{
+    margin-top:10rem;
+}
+.pdf2{
+    font-family: 'Blinker', sans-serif;
+    color:#B1B1B1;
+    padding-right:25rem;
+    margin-top:5px;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .about{
+        width:100vw;
+        height:50vh;
+        background:url(/images/2.png) no-repeat no-repeat center;
+        background-size:contain;
+    }
+    .package{
+        width:100vw;
+        height:55vh;
+        background:url(/images/3.png) no-repeat no-repeat center;
+        background-size:contain;
+    }
+    .foundation{
+        width:100vw;
+        height:50vh;
+        background:url(/images/4.png) no-repeat no-repeat center;
+        background-size: contain;
+    }
+
+
+  
+    .internet{
+        width:100vw;
+        height:50vh;
+        background:url(/images/5.png) no-repeat no-repeat center;
+        background-size: contain;
+    }
+    .ott{
+        padding-bottom:4rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        width:100vw;
+        height:60vh;
+        background:url(/images/ott.png) no-repeat no-repeat center;
+        background-size: contain;
+    }
+    .anual{
+        padding-bottom:4rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        width:100vw;
+        height:55vh;    
+         background:url(/images/anual.png) no-repeat no-repeat center;
+        background-size: contain;
+    }
+    .contact-us{
+        padding-bottom:4rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        width:100vw;
+        height:40vh;    
+         background:url(/images/contact.png) no-repeat no-repeat center;
+        background-size: contain;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+.about{
+    width:100%;
+    height:110vh;
+    background:url(/images/2.png) no-repeat no-repeat center;
+    background-size: contain;
+}
+
+.foundation{
+    width:100%;
+    height:110vh;
+    background:url(/images/4.png) no-repeat no-repeat center;
+    background-size: contain;
+}
+
+.package{
+    width:100%;
+    height:110vh;
+    background:url(/images/3.png) no-repeat no-repeat center;
+    background-size:contain;
+}
+
+
+
+.pdf{
+    display: none;
+    bottom:0;
+    margin-top:10rem;
+    font-family: 'Blinker', sans-serif;
+    color:#B1B1B1;
+}
+.ott{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    width:110vw;
+    height:110vh;
+    background:url(/images/ott.png) no-repeat no-repeat center;
+    background-size: contain;
+}
+.anual{
+    margin-left:5rem;
+    padding-bottom:4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width:100vw;
+    height:110vh;    
+     background:url(/images/anual.png) no-repeat no-repeat center;
+    background-size: contain;
+}
+.contact-us{
+    padding-bottom:4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width:100vw;
+    height:110vh;    
+     background:url(/images/contact.png) no-repeat no-repeat center;
+    background-size: contain;
+}
+
+
+
+}
