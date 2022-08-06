@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+.monthly a:link{
+    color:blue !important;
+}
+.anual a:link{
+    color:blue !important;
+
+}
+
+.anual a:visited{
+    color:purple !important;
+}
+.monthly a:visited{
+    color:purple !important;
+}
+
+.monthly2 a:visited{
+    color:purple !important;
+}
+#dFHGunhJnwLaoAzs,#ITpvEKZp9d5ggc1x,#ChwwbHPoGUKQs256{
+    font-size:42px !important;
+}
+#iz8OckhYPRXOfXCM,#VLRsZWaAYK38rHRI,#vyEkW3VWHNQT0NAY{
+    font-family: 'Blinker-Thin', sans-serif !important;
+    font-weight:bold !important;
+}
+
+@font-face {
+    font-family: 'Blinker-Thin !important';
+    src: url(/fonts/Blinker-Thin.ttf);
+}
+@font-face {
+    font-family: 'Blinker-Light';
+    src: url(/fonts/Blinker-Light.ttf);
+}
+
+@font-face {
+    font-family:'Blinker-Thin' ;
+    src: url(/fonts/Blinker-Bold.ttf);
+}
+@font-face {
+    font-family:' Blinker-Regular';
+    src: url(/fonts/Blinker-Regular.ttf);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    
+.about img{
+  
+    width:100%;
+    object-fit: contain;
+}
+
+
+.foundation img{
+  
+    width:100%;
+    object-fit: contain;
+}
+.package img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly2 img{
+  
+    width:100%;
+}
+.anual img{
+  
+    width:100%;
+}
+
+.contact img{
+  
+    width:100%;
+}
+   
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+.about{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    object-fit: contain;
+  
+}
+.foundation{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.package {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.anual {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.anual .pdf{
+  
+    color: #EDECEA;
+    position: absolute;
+    right:15%;
+    bottom:10%;
+    align-self: flex-end;
+}
+.pdf a{
+    text-decoration: underline;
+    font-style: normal;
+}
+.pdf2{
+    position: absolute;
+   right:15%;
+  bottom:25%;
+}
+.pdf2 a{
+    text-decoration: underline;
+}
+.monthly {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.monthly2 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about img{
+  
+    width:100%;
+    object-fit: contain;
+}
+
+
+.foundation img{
+  
+    width:100%;
+    object-fit: contain;
+}
+.package img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly2 img{
+  
+    width:100%;
+}
+.anual img{
+  
+    width:100%;
+}
+
+.contact img{
+  
+    width:100%;
+}
+
+
+}
+
