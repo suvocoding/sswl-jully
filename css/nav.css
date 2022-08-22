@@ -109,7 +109,7 @@ html,body,ul{
    display: flex;
   align-items: center;
   justify-content:space-around;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   background: #FFFFFF;
   flex-wrap: wrap;
   border-bottom: 1px solid black;
