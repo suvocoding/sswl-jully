@@ -61,7 +61,9 @@ scroll-behavior: smooth;
 
 
 
-
+.pdf{
+    font-size:0.5rem;
+    }
 .package img {
 
     width:100%;
