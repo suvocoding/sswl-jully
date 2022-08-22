@@ -1,0 +1,210 @@
+*{   margin: 0;
+    padding: 0;
+    font-size:20px;
+    box-sizing: border-box;
+}
+:root{
+
+    --afs-xl:1.2rem;
+    --afs-lg2:1.8rem;
+    --afs-lg:0.8rem;
+    --afs-m:0.8rem;
+    --afs-extra-s:0.7rem;
+    
+}
+@font-face {
+    font-family: gilam-semi-bold;
+    font-display: swap;
+    src: url(fonts/gilam-semi-bold.ttf);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.about{
+    display: grid;
+    grid-template-columns:repeat(24,1fr);
+    grid-template-rows: repeat(24,1fr);
+    width:100%;
+    height: 120vh;
+}
+
+.iteam1{
+    grid-column: 1/-1;
+    grid-row: 1/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:15rem;
+}
+
+.iteam1-text1{
+    position: relative;
+    font-family: "gilam-semi-bold";
+    font-size: var(--afs-xl);
+    font-weight: 700;
+    font-style: bold !important;
+    color: rgb(53, 57, 62);
+    text-transform: uppercase;
+    
+}
+.iteam1-text1:before{
+    content:'';
+    width:5rem;
+    height:3px;
+    position: absolute;
+    top:0.4rem;
+    left:-8rem;
+    background:#FFBD59;
+}
+.iteam1 .iteam1-text2{
+    font-family: "gilam-semi-bold";
+    font-size: var(--afs-xl);
+    color: #737373;
+    font-style:bold;
+    font-weight: 700;
+    text-rendering: geometricPrecision;
+    font-feature-settings: "kern" 0,"calt" 0,"liga" 0,"clig" 0,"dlig" 0,"hlig" 0;
+    font-variant-ligatures: none;
+    font-kerning: none;
+    font-synthesis: none;
+    tab-size: 4;
+    direction: ltr;
+    text-align: justify;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+.iteam2{
+    grid-column: 3/14;
+    grid-row: 16/-1;
+    background: #EFEEED;
+}
+.iteam3{
+    grid-column: 6/13;
+    grid-row: 11/23;
+    background: url(/images/screen_3x.webp);
+    background-size: cover;
+    object-fit: cover;
+}
+.iteam4{
+    grid-column: 14/-1;
+    grid-row: 11/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1.5rem;
+
+}
+.iteam4-teaxt1{
+    font-family: "gilam-semi-bold";
+    font-weight: bold;
+    color: rgb(115, 115, 115);
+    margin:2rem 0rem;
+    font-size:var(--afs-lg);
+    text-align: left;
+    margin-right:1.9rem;
+}
+.iteam4-teaxt2{
+    font-family: "gilam-semi-bold";
+    color: rgb(93, 108, 116);
+    text-align: left;
+    font-size:var(--afs-lg);
+}
+
+
+@media only screen and (max-width: 900px) {
+.about{
+    height:200vh;
+}
+    .iteam1{
+        grid-column: 1/-1;
+        grid-row:1/6;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+   .iteam1 .iteam1-text1{
+        font-size:18px !important;  
+   
+    
+    }
+    .iteam1 .iteam1-text2{
+        font-size:18px !important;  
+        padding:0rem 0.5rem !important;
+
+    }
+    .iteam1-text1:before{
+  
+    left:-6rem;
+    
+    }
+    .iteam2{
+       display: none;
+       
+    }
+    .iteam3{
+        grid-column: 1/-1;
+        grid-row:6/14;
+        padding: 0;
+        margin: 0;
+        z-index: 55;
+    }
+    .iteam4{
+        padding:1rem;
+        grid-column: 1/-1;
+        grid-row:14/24;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center !important;
+    }
+    .iteam4-teaxt1{
+        font-size: 18px;
+        padding: 0;
+    }
+    .iteam4-teaxt2{
+
+        font-size: 18px;
+
+        padding: 0rem 0.5rem;
+        margin: 0 !important;
+        margin-right: 1rem;
+    }
+
+    }
+  
+   
+
+    @media only screen and (min-width:1800px) {
+        .about{
+            margin-bottom: 5rem;
+        }
+
+        :root{
+
+            --afs-xl:2.5rem;
+            --afs-lg2:2.5rem;
+            --afs-lg:2rem;
+            --afs-m:1.5rem;
+            --afs-extra-s:0.7rem;
+            
+        }
+        .iteam4{
+            padding-top: 10rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .iteam3{
+            grid-column: 6/13;
+            grid-row: 11/23;
+          
+            background-position: center center;
+        }
+
+    }
