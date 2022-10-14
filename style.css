@@ -1,0 +1,315 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+#sp a:link{
+    color:blue;
+}
+
+.anual a:link{
+    color:blue !important;
+    text-decoration: underline;
+}
+.monthly a:link{
+    color:blue !important;
+    text-decoration: underline;
+
+
+}
+#yar a:link{
+    color:blue !important;
+    text-decoration: underline;
+
+}
+
+.anual a:visited{
+    color:purple !important;
+}
+.monthly,.monthly2 a:visited{
+    color:purple !important;
+}
+
+.monthly2 a:visited{
+    color:purple !important;
+}
+#dFHGunhJnwLaoAzs,#ITpvEKZp9d5ggc1x,#ChwwbHPoGUKQs256{
+    font-size:42px !important;
+}
+#iz8OckhYPRXOfXCM,#VLRsZWaAYK38rHRI,#vyEkW3VWHNQT0NAY{
+    font-family: 'Blinker-Thin', sans-serif !important;
+    font-weight:bold !important;
+}
+
+@font-face {
+    font-family: 'Blinker-Thin !important';
+    src: url(/fonts/Blinker-Thin.ttf);
+}
+@font-face {
+    font-family: 'Blinker-Light';
+    src: url(/fonts/Blinker-Light.ttf);
+}
+
+@font-face {
+    font-family:'Blinker-Thin' ;
+    src: url(/fonts/Blinker-Bold.ttf);
+}
+@font-face {
+    font-family:' Blinker-Regular';
+    src: url(/fonts/Blinker-Regular.ttf);
+}
+.contact{
+    position: relative;
+}
+#link_continer{
+
+    position:absolute;
+    left:5%;
+    bottom: 10%;
+}
+#link_continer ul{
+
+    list-style: none;
+    
+}
+#link_continer ul li{
+    
+}
+#link_continer ul li a{
+    
+    color:white;
+    text-decoration: underline;
+    font-size:12px;
+}
+#pay{
+    position:fixed;
+    right:1%;
+    bottom: 1%;
+}
+@media only screen and (max-width: 768px) {
+
+
+    
+.about img{
+  
+    width:100%;
+    object-fit: contain;
+}
+
+
+.foundation img{
+  
+    width:100%;
+    object-fit: contain;
+}
+.package img {
+    width:100%;
+    object-fit: contain;
+
+}
+#puja img {
+    width:100%;
+    object-fit: contain;
+
+}
+#puja2  img{
+    width:100%;
+    object-fit: contain;
+
+}
+
+.monthly img {
+    width:100%;
+    object-fit: contain;
+
+}
+.yar img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly2 img{
+  
+    width:100%;
+}
+.anual img{
+  
+    width:100%;
+}
+
+.contact img{
+  
+    width:100%;
+}
+   
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+.about{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    object-fit: contain;
+  
+}
+.foundation{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.package {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.puja img{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.puja2 img{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anual {
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pdf-q{
+  
+    color: #EDECEA;
+    position: absolute;
+    right:5%;
+   bottom:10%;
+   z-index: 8888;
+}
+.pdf-a{
+    position: absolute;
+    right: 5%;
+    z-index: 8888;
+   bottom:10%;
+}
+.pdf a{
+    text-decoration: underline;
+    font-style: normal;
+}
+.pdf-m{
+    position: absolute;
+   right:4%;
+    z-index: 555;
+}
+.pdf-m2{
+    position: absolute;
+   right:4%;
+   bottom:20%;
+    z-index: 555;
+}
+.pdf3{
+    margin-top:10px;
+    margin-left:62.5%;
+}
+.pdf-m a{
+    text-decoration: underline;
+}
+
+.monthly {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height:10vh;
+
+}
+.monthly2 {
+    position: relative;
+    width:100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#ex1{
+    padding:0 !important;
+    padding-top:10px !important;
+    width:300px;
+    height:550px;
+    position: absolute;
+    right:10px;
+    bottom:0;
+    
+}
+#ex1 img{
+    display: block;
+    width:280px;
+    height:520px;
+    margin:0px auto;
+}
+.yar{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about img{
+  
+    width:100%;
+    object-fit: contain;
+}
+
+
+.foundation img{
+  
+    width:100%;
+    object-fit: contain;
+}
+.package img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly img {
+    width:100%;
+    object-fit: contain;
+
+}
+.monthly2 img{
+  
+    width:100%;
+}
+.anual img{
+  
+    width:100%;
+}
+
+.contact img{
+  
+    width:100%;
+}
+.yar img{
+    width:100%;
+
+}
+
+}
+
