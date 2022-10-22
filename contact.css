@@ -76,9 +76,9 @@ box-sizing: border-box;
 }
 
 #link_continer ul li a{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Light', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Open Sans Light', sans-serif !important;
+    font-family: 'Open Sans Condensed', sans-serif !important;
 color:white;
     text-decoration: underline;
     font-size:12px;
